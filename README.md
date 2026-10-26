@@ -142,23 +142,6 @@ The preamble collapses to a one-line bar, `\section` renders as a real heading (
 
 **Mac App Store:** coming soon.
 
-In the meantime, prebuilt disk images are published on the [Releases](../../releases) page. Open the `.dmg` and drag **ZenTex** into **Applications**.
-
-> Disk-image builds are not notarised, so macOS may say "unidentified developer" on first launch. Right-click → **Open**, or run:
-> ```bash
-> xattr -dr com.apple.quarantine "/Applications/ZenTex.app"
-> ```
-
----
-
-## Quick start
-
-1. **First launch** asks you to pick a LaTeX project folder; afterwards the app returns to your last project. Use `⌘O` to switch.
-2. **Write** in the left pane. Toggle **Source / Preview** in the toolbar to open or close the decoration layer.
-3. **Compile** with the toolbar button. The PDF appears on the right; errors show in the problems panel with file and line.
-4. **Jump** between source and PDF with the locate buttons, or by clicking in the PDF.
-5. **Settings** (`⌘,`) cover appearance, engine, spelling and custom CSS.
-
 ---
 
 ## How it was built
@@ -190,12 +173,6 @@ ZenTex was designed and built by one person, end to end. It grew out of the auth
 - Inline-format shortcuts cover six style families; other commands render but have no shortcut.
 - `ctex` templates require XeLaTeX or LuaLaTeX.
 - The interface is bilingual (English / Chinese) with **one known leak**: the collapsed preamble bar in preview mode is currently shown in Chinese.
-
----
-
-## Feedback
-
-ZenTex is closed-source. Bug reports, questions and feature ideas are very welcome through [Issues](../../issues).
 
 ---
 
